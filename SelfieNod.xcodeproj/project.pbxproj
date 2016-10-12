@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B569108D2B28F1F511EBF71 /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569900B4DE7238EA92A5FD /* haarcascade_frontalface_alt_tree.xml */; };
+		5B56926BB2F82124961C3CC7 /* haarcascade_lowerbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5693A7F68AF4592131D05D /* haarcascade_lowerbody.xml */; };
+		5B56949A4120FCD4CE56282F /* haarcascade_frontalcatface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569CF3FA9D8223AF66295D /* haarcascade_frontalcatface.xml */; };
+		5B569574DC12A87E29F7CDB5 /* haarcascade_smile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5694BA9D1386C8901A581E /* haarcascade_smile.xml */; };
+		5B5695E243116C8AE2AF51CC /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569A7FE71F4CCBF212BE1D /* haarcascade_eye.xml */; };
+		5B56966767B863173599009F /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569DB4E350008BF359C338 /* haarcascade_frontalface_alt.xml */; };
+		5B569722AE4CAB4F38E02890 /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569A22C2EB4DE6B597D753 /* haarcascade_profileface.xml */; };
+		5B5697927032A8B2ED53E9B5 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569B0AB3D0D05DB7A4013C /* haarcascade_frontalface_alt2.xml */; };
+		5B5698C0D2D0D5607995EEB2 /* haarcascade_righteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B56999C6C3F10C9C59EDB36 /* haarcascade_righteye_2splits.xml */; };
+		5B569A2617052C040BDC4E9F /* OpenCVBitmap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B569F510AA331ACD6C5C885 /* OpenCVBitmap.mm */; };
+		5B569A93C64140E308A7ECBD /* haarcascade_russian_plate_number.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B56925C947FE81BCF177EE6 /* haarcascade_russian_plate_number.xml */; };
+		5B569ACF9331324EA7FF5115 /* haarcascade_frontalcatface_extended.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5693C58E3718F77058D6B7 /* haarcascade_frontalcatface_extended.xml */; };
+		5B569AF8EEDA9B126BA36EA0 /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569F6338426C6D08BF6180 /* haarcascade_eye_tree_eyeglasses.xml */; };
+		5B569B6BC79F64F9375328F2 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5699A080DE820D04740F4A /* haarcascade_frontalface_default.xml */; };
+		5B569B7F708775ADB594FB09 /* haarcascade_lefteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B569516506EC7D0CE33F838 /* haarcascade_lefteye_2splits.xml */; };
+		5B569DE437B66DCCA63BF2CF /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5692350D91D8DC82048638 /* haarcascade_fullbody.xml */; };
+		5B569EA1147176D9AF977506 /* haarcascade_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5699FA421F3847D6A15A7E /* haarcascade_upperbody.xml */; };
+		5B569F4D7A8653A979CD7BD6 /* haarcascade_licence_plate_rus_16stages.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5B5690B52F2DC14FD9145155 /* haarcascade_licence_plate_rus_16stages.xml */; };
+		7F4A26A11C02A292D013FC9A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F87A17410B2F4AC8EE2FAC72 /* libPods.a */; };
+		D9A9A0711D9AD4FB001EABE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A9A0701D9AD4FB001EABE9 /* main.m */; };
+		D9A9A0741D9AD4FB001EABE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A9A0731D9AD4FB001EABE9 /* AppDelegate.m */; };
+		D9A9A0771D9AD4FB001EABE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A9A0761D9AD4FB001EABE9 /* ViewController.m */; };
+		D9A9A07A1D9AD4FB001EABE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A9A0781D9AD4FB001EABE9 /* Main.storyboard */; };
+		D9A9A07C1D9AD4FB001EABE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A9A07B1D9AD4FB001EABE9 /* Assets.xcassets */; };
+		D9A9A07F1D9AD4FB001EABE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A9A07D1D9AD4FB001EABE9 /* LaunchScreen.storyboard */; };
+		D9A9A0871D9AD57A001EABE9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A9A0861D9AD57A001EABE9 /* AVFoundation.framework */; };
+		D9A9A0B81D9ADB65001EABE9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A9A0B71D9ADB65001EABE9 /* AboutViewController.m */; };
+		D9EA99E81D9F0BED00B7C6D2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA99E71D9F0BED00B7C6D2 /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B5690B52F2DC14FD9145155 /* haarcascade_licence_plate_rus_16stages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_licence_plate_rus_16stages.xml; sourceTree = "<group>"; };
+		5B5692350D91D8DC82048638 /* haarcascade_fullbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_fullbody.xml; sourceTree = "<group>"; };
+		5B56925C947FE81BCF177EE6 /* haarcascade_russian_plate_number.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_russian_plate_number.xml; sourceTree = "<group>"; };
+		5B5693A7F68AF4592131D05D /* haarcascade_lowerbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_lowerbody.xml; sourceTree = "<group>"; };
+		5B5693C58E3718F77058D6B7 /* haarcascade_frontalcatface_extended.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalcatface_extended.xml; sourceTree = "<group>"; };
+		5B5694BA9D1386C8901A581E /* haarcascade_smile.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_smile.xml; sourceTree = "<group>"; };
+		5B569516506EC7D0CE33F838 /* haarcascade_lefteye_2splits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_lefteye_2splits.xml; sourceTree = "<group>"; };
+		5B56985DB34C4F513DDF9B5F /* OpenCVBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVBitmap.h; sourceTree = "<group>"; };
+		5B569900B4DE7238EA92A5FD /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+		5B56999C6C3F10C9C59EDB36 /* haarcascade_righteye_2splits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_righteye_2splits.xml; sourceTree = "<group>"; };
+		5B5699A080DE820D04740F4A /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		5B5699FA421F3847D6A15A7E /* haarcascade_upperbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_upperbody.xml; sourceTree = "<group>"; };
+		5B569A22C2EB4DE6B597D753 /* haarcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_profileface.xml; sourceTree = "<group>"; };
+		5B569A7FE71F4CCBF212BE1D /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
+		5B569B0AB3D0D05DB7A4013C /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		5B569CF3FA9D8223AF66295D /* haarcascade_frontalcatface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalcatface.xml; sourceTree = "<group>"; };
+		5B569DB4E350008BF359C338 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		5B569F510AA331ACD6C5C885 /* OpenCVBitmap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVBitmap.mm; sourceTree = "<group>"; };
+		5B569F6338426C6D08BF6180 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		C6A94F8A57F7EA3A0BCBED34 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A9A06C1D9AD4FB001EABE9 /* SelfieNod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieNod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A9A0701D9AD4FB001EABE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9A9A0721D9AD4FB001EABE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9A9A0731D9AD4FB001EABE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9A9A0751D9AD4FB001EABE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9A9A0761D9AD4FB001EABE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9A9A0791D9AD4FB001EABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9A9A07B1D9AD4FB001EABE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A9A07E1D9AD4FB001EABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9A9A0801D9AD4FB001EABE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A9A0861D9AD57A001EABE9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D9A9A0B61D9ADB65001EABE9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		D9A9A0B71D9ADB65001EABE9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		D9EA99E61D9F0BED00B7C6D2 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D9EA99E71D9F0BED00B7C6D2 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F87A17410B2F4AC8EE2FAC72 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC066213D0794315E9F3E63 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A9A0691D9AD4FB001EABE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A9A0871D9AD57A001EABE9 /* AVFoundation.framework in Frameworks */,
+				7F4A26A11C02A292D013FC9A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E727FF1AC61A808D21F9279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87A17410B2F4AC8EE2FAC72 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B569AD4A70ED5224C9ACBF3 /* haarcascades */ = {
+			isa = PBXGroup;
+			children = (
+				5B569A7FE71F4CCBF212BE1D /* haarcascade_eye.xml */,
+				5B5694BA9D1386C8901A581E /* haarcascade_smile.xml */,
+				5B5692350D91D8DC82048638 /* haarcascade_fullbody.xml */,
+				5B5693A7F68AF4592131D05D /* haarcascade_lowerbody.xml */,
+				5B5699FA421F3847D6A15A7E /* haarcascade_upperbody.xml */,
+				5B569A22C2EB4DE6B597D753 /* haarcascade_profileface.xml */,
+				5B569CF3FA9D8223AF66295D /* haarcascade_frontalcatface.xml */,
+				5B569DB4E350008BF359C338 /* haarcascade_frontalface_alt.xml */,
+				5B569516506EC7D0CE33F838 /* haarcascade_lefteye_2splits.xml */,
+				5B569B0AB3D0D05DB7A4013C /* haarcascade_frontalface_alt2.xml */,
+				5B56999C6C3F10C9C59EDB36 /* haarcascade_righteye_2splits.xml */,
+				5B569F6338426C6D08BF6180 /* haarcascade_eye_tree_eyeglasses.xml */,
+				5B5699A080DE820D04740F4A /* haarcascade_frontalface_default.xml */,
+				5B569900B4DE7238EA92A5FD /* haarcascade_frontalface_alt_tree.xml */,
+				5B56925C947FE81BCF177EE6 /* haarcascade_russian_plate_number.xml */,
+				5B5693C58E3718F77058D6B7 /* haarcascade_frontalcatface_extended.xml */,
+				5B5690B52F2DC14FD9145155 /* haarcascade_licence_plate_rus_16stages.xml */,
+			);
+			path = haarcascades;
+			sourceTree = "<group>";
+		};
+		D9A9A0631D9AD4FB001EABE9 = {
+			isa = PBXGroup;
+			children = (
+				D9A9A0861D9AD57A001EABE9 /* AVFoundation.framework */,
+				D9A9A06E1D9AD4FB001EABE9 /* SelfieNod */,
+				D9A9A06D1D9AD4FB001EABE9 /* Products */,
+				E014E33762229D739E05D183 /* Pods */,
+				0E727FF1AC61A808D21F9279 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A9A06D1D9AD4FB001EABE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9A06C1D9AD4FB001EABE9 /* SelfieNod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A9A06E1D9AD4FB001EABE9 /* SelfieNod */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9A0B61D9ADB65001EABE9 /* AboutViewController.h */,
+				D9A9A0B71D9ADB65001EABE9 /* AboutViewController.m */,
+				D9A9A0721D9AD4FB001EABE9 /* AppDelegate.h */,
+				D9A9A0731D9AD4FB001EABE9 /* AppDelegate.m */,
+				D9A9A0751D9AD4FB001EABE9 /* ViewController.h */,
+				D9A9A0761D9AD4FB001EABE9 /* ViewController.m */,
+				D9A9A0781D9AD4FB001EABE9 /* Main.storyboard */,
+				D9A9A07B1D9AD4FB001EABE9 /* Assets.xcassets */,
+				D9A9A07D1D9AD4FB001EABE9 /* LaunchScreen.storyboard */,
+				D9A9A0801D9AD4FB001EABE9 /* Info.plist */,
+				D9A9A06F1D9AD4FB001EABE9 /* Supporting Files */,
+				5B569F510AA331ACD6C5C885 /* OpenCVBitmap.mm */,
+				5B56985DB34C4F513DDF9B5F /* OpenCVBitmap.h */,
+				5B569AD4A70ED5224C9ACBF3 /* haarcascades */,
+				D9EA99E61D9F0BED00B7C6D2 /* SettingsViewController.h */,
+				D9EA99E71D9F0BED00B7C6D2 /* SettingsViewController.m */,
+			);
+			name = SelfieNod;
+			path = Karakame;
+			sourceTree = "<group>";
+		};
+		D9A9A06F1D9AD4FB001EABE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9A0701D9AD4FB001EABE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E014E33762229D739E05D183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6A94F8A57F7EA3A0BCBED34 /* Pods.debug.xcconfig */,
+				FCC066213D0794315E9F3E63 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A9A06B1D9AD4FB001EABE9 /* SelfieNod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A9A0831D9AD4FB001EABE9 /* Build configuration list for PBXNativeTarget "SelfieNod" */;
+			buildPhases = (
+				4995130E0089E84C2F112E61 /* Check Pods Manifest.lock */,
+				D9A9A0681D9AD4FB001EABE9 /* Sources */,
+				D9A9A0691D9AD4FB001EABE9 /* Frameworks */,
+				D9A9A06A1D9AD4FB001EABE9 /* Resources */,
+				7EBF25271FE37694096D9EE3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieNod;
+			productName = Karakame;
+			productReference = D9A9A06C1D9AD4FB001EABE9 /* SelfieNod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A9A0641D9AD4FB001EABE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Douwe Osinga";
+				TargetAttributes = {
+					D9A9A06B1D9AD4FB001EABE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9A9A0671D9AD4FB001EABE9 /* Build configuration list for PBXProject "SelfieNod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9A9A0631D9AD4FB001EABE9;
+			productRefGroup = D9A9A06D1D9AD4FB001EABE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A9A06B1D9AD4FB001EABE9 /* SelfieNod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A9A06A1D9AD4FB001EABE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A9A07F1D9AD4FB001EABE9 /* LaunchScreen.storyboard in Resources */,
+				D9A9A07C1D9AD4FB001EABE9 /* Assets.xcassets in Resources */,
+				D9A9A07A1D9AD4FB001EABE9 /* Main.storyboard in Resources */,
+				5B5695E243116C8AE2AF51CC /* haarcascade_eye.xml in Resources */,
+				5B569574DC12A87E29F7CDB5 /* haarcascade_smile.xml in Resources */,
+				5B569DE437B66DCCA63BF2CF /* haarcascade_fullbody.xml in Resources */,
+				5B56926BB2F82124961C3CC7 /* haarcascade_lowerbody.xml in Resources */,
+				5B569EA1147176D9AF977506 /* haarcascade_upperbody.xml in Resources */,
+				5B569722AE4CAB4F38E02890 /* haarcascade_profileface.xml in Resources */,
+				5B56949A4120FCD4CE56282F /* haarcascade_frontalcatface.xml in Resources */,
+				5B56966767B863173599009F /* haarcascade_frontalface_alt.xml in Resources */,
+				5B569B7F708775ADB594FB09 /* haarcascade_lefteye_2splits.xml in Resources */,
+				5B5697927032A8B2ED53E9B5 /* haarcascade_frontalface_alt2.xml in Resources */,
+				5B5698C0D2D0D5607995EEB2 /* haarcascade_righteye_2splits.xml in Resources */,
+				5B569AF8EEDA9B126BA36EA0 /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				5B569B6BC79F64F9375328F2 /* haarcascade_frontalface_default.xml in Resources */,
+				5B569108D2B28F1F511EBF71 /* haarcascade_frontalface_alt_tree.xml in Resources */,
+				5B569A93C64140E308A7ECBD /* haarcascade_russian_plate_number.xml in Resources */,
+				5B569ACF9331324EA7FF5115 /* haarcascade_frontalcatface_extended.xml in Resources */,
+				5B569F4D7A8653A979CD7BD6 /* haarcascade_licence_plate_rus_16stages.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4995130E0089E84C2F112E61 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBF25271FE37694096D9EE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A9A0681D9AD4FB001EABE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A9A0771D9AD4FB001EABE9 /* ViewController.m in Sources */,
+				D9A9A0741D9AD4FB001EABE9 /* AppDelegate.m in Sources */,
+				D9A9A0B81D9ADB65001EABE9 /* AboutViewController.m in Sources */,
+				D9EA99E81D9F0BED00B7C6D2 /* SettingsViewController.m in Sources */,
+				D9A9A0711D9AD4FB001EABE9 /* main.m in Sources */,
+				5B569A2617052C040BDC4E9F /* OpenCVBitmap.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9A9A0781D9AD4FB001EABE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A9A0791D9AD4FB001EABE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9A9A07D1D9AD4FB001EABE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A9A07E1D9AD4FB001EABE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9A9A0811D9AD4FB001EABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A9A0821D9AD4FB001EABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9A9A0841D9AD4FB001EABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A94F8A57F7EA3A0BCBED34 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Karakame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douweosinga.SelfieNod;
+				PRODUCT_NAME = SelfieNod;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		D9A9A0851D9AD4FB001EABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC066213D0794315E9F3E63 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Karakame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douweosinga.SelfieNod;
+				PRODUCT_NAME = SelfieNod;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A9A0671D9AD4FB001EABE9 /* Build configuration list for PBXProject "SelfieNod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A9A0811D9AD4FB001EABE9 /* Debug */,
+				D9A9A0821D9AD4FB001EABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A9A0831D9AD4FB001EABE9 /* Build configuration list for PBXNativeTarget "SelfieNod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A9A0841D9AD4FB001EABE9 /* Debug */,
+				D9A9A0851D9AD4FB001EABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A9A0641D9AD4FB001EABE9 /* Project object */;
+}

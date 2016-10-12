@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8q-d3-jYl">
+                                <rect key="frame" x="87" y="268" width="240" height="200"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Logo-S" translatesAutoresizingMaskIntoConstraints="NO" id="rFX-7y-Oxc">
+                                        <rect key="frame" x="60" y="20" width="120" height="120"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SelfieNod" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="103-5r-6vi">
+                                        <rect key="frame" x="68" y="146" width="104.5" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="S2P-4C-fkL"/>
+                                    <constraint firstAttribute="height" constant="200" id="cYe-8D-08p"/>
+                                    <constraint firstItem="rFX-7y-Oxc" firstAttribute="centerX" secondItem="s8q-d3-jYl" secondAttribute="centerX" id="fOC-qh-9Vn"/>
+                                    <constraint firstAttribute="bottom" secondItem="103-5r-6vi" secondAttribute="bottom" constant="26" id="gPo-hb-psI"/>
+                                    <constraint firstItem="rFX-7y-Oxc" firstAttribute="top" secondItem="s8q-d3-jYl" secondAttribute="top" constant="20" id="jIf-Fa-oSP"/>
+                                    <constraint firstItem="103-5r-6vi" firstAttribute="centerX" secondItem="s8q-d3-jYl" secondAttribute="centerX" id="z3a-iV-iCu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73193436860000005" green="0.14902591709999999" blue="0.45277071000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="s8q-d3-jYl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="15r-zi-LAG"/>
+                            <constraint firstItem="s8q-d3-jYl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9AZ-A2-uEm"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo-S" width="120" height="120"/>
+    </resources>
+</document>
